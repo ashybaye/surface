@@ -1,0 +1,16 @@
+@import './_imports/_variables',
+        './_imports/_colors';
+
+ul, ol {
+	margin-left: $space-big;
+	margin-bottom: $space-med;
+  list-style-type: square;
+	li {
+		margin-top: $space-small*1;
+	}
+}
+
+ol {
+	list-style-type: decimal;
+	white-space: nowrap;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<link href="css/surface_styles.css" rel="stylesheet">
+	<link href="css/monokai_sublime.css" rel="stylesheet">
+
+	<script src="js/highlight.pack.js"></script>
+
+	<link href="js/featherlight/featherlight.min.css" rel="stylesheet">
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<title>Work - Alina Shybayeva - Web Developer</title>
+
+	<meta name="description" content="Work - Alina Shybayeva">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<input type="checkbox" id="nav--super-vertical-responsive">
+	<label for="nav--super-vertical-responsive">MENU</label>
+	<aside class="nav--super-vertical g--2 g-m--3 g-s--6 g-t--12 no-margin-vertical" role="sidebar">
+		<div class="g--12 logo-area no-margin-vertical">
+			<img src="img/alina2.jpg" alt="Alina Shybayeva" class="circle">
+		</div>
+
+		<nav class="g--12 no-margin-vertical" role="navigation">
+			<a href="index.html">Work</a>
+			<a href="cv.html">Resume</a>
+			<a href="contact.html">Contacts</a>
+		</nav>
+
+	</aside>
+	<main class="g--10 g-m--12 m--2 m-m--0 no-margin-vertical" role="main">
+
+		<header class="container--wrap">
+			<h1 class="m--1 g--4 g-s--12 docsHeader">Alina Shybayeva
+				<span>Web developer</span></h1>
+		</header>
+
+		<div class="container g--10 m--1 no-margin-vertical">
+			<div class="g--8 g-s--12">
+				<h2 class="fade-in-from-top color--maroon">Tippie College of Business Website</h2>
+			</div>
+			<div class="g--4 g-s--12">
+				<p class="right"><a href="https://tippie.uiowa.edu" rel="nofollow" target="_blank">tippie.uiowa.edu</a></p>
+			</div>
+		</div>
+
+		<div class="g--10 m--1 no-margin-vertical">
+			<img src="img/tippie_homepage_top.png" class="fade-in-from-top" alt="Tippie College of Business homepage">
+			<br/>
+			<h3>Description & background</h3>
+			<p>Primary website for the Tippie College of Business, University of Iowa. We worked with the marketing and design company to create the content strategy and design comps. Then, a team of three developers was formed to implement the Drupal 7 solution. The development of the website took 8 months; the website was launched in August 2016.</p>
+			<p>Below is the work I did on this project. ( * - collaborated with the ITS developer.)</p>
+
+			<h3>Features & technology used</h3>
+
+			<h4>Theme</h4>
+			<ul>
+				<li>Created custom theme based on the Radix base theme</li>
+				<li>Used extensively many features of the Bootstrap framework that come with Radix including SASS, JQuery, Breakpoints, as well as SASS mixins and Flexbox.</li>
+				<li>Helped to create the <a href="https://docs.google.com/document/d/1YEf3GrVmw-j053n8mUT3kYcYBxTaRkiZd-oepnAw7TE/edit?usp=sharing"  rel="nofollow">style guide document</a> for the website's editors.</li>
+				<li>* Three options for page header - <a href="https://tippie.uiowa.edu/locations" rel="nofollow" target="_blank">no image</a>, <a href="https://tippie.uiowa.edu/future-undergraduates/majors/marketing-major" rel="nofollow" target="_blank">short image</a>, <a href="https://tippie.uiowa.edu/current-students" rel="nofollow" target="_blank">a tall image with custom text</a>, <a href="https://tippie.uiowa.edu/future-graduate-students/mba-programs/professional-mba" rel="nofollow" target="_blank">a tall image with the Story reference</a>.</li>
+				<li><em>Next Steps</em> footer block: created a content type <em>Calls to Action</em> to display referenced CTAs in the footer. Some CTAs implement a lightbox (see the footer on the <a href="https://tippie.uiowa.edu/" rel="nofollow" target="_blank">homepage</a>, click on <em>Request Info</em>).</li>
+				<li>Customized CKEditor, added styles</li>
+			</ul>
+
+			<h4>Homepage</h4>
+			<ul>
+				<li>Custom Panels page with programmatically created Panel panes.</li>
+				<li>Used Youtube API for the lightbox video player controls.</li>
+				<li>
+					<input type="checkbox" id="modal-homepage">
+  				<label for="modal-homepage" class="link">Created Admin Configuration module to configure the homepage.</label>
+				  <div class="modal-content g--4">
+				    <img src="img/manage-homepage-config.png" alt="Manage homepage screen">
+				  </div>
+				<li>Developed functionality to display the urgent message with the "curtain" effect.</li>
+				<li><em>You'll Love It Here</em> panel: Created a custom Panel pane with the carousel of featured content cards using Slick module API</li>
+				<li>Used exposed filter view block for instant program search ("Explore Programs" panel)</li>
+				<li>Used Instagram Social Feed module to embed the stream of photos from the College's Instagram account</li>
+			</ul>
+
+			<h4>Structure</h4>
+			<ul>
+				<li>* Created 14 content types</li>
+				<li>* Implemented Paragraphs module with 11 bundles
+					<ul>
+						<li>Background style selection</li>
+						<li>Taxonomy and entity references to enable re-use of content (see <em>Student Story</em> and <em>Up and coming</em> paragraphs <a href="https://tippie.uiowa.edu/future-graduate-students/mba-programs/full-time-mba" rel="nofollow" target="_blank">here</a>)</li>
+					</ul>
+				</li>
+				<li>Created several custom landing pages using Panels and Views (ex: <a href="https://tippie.uiowa.edu/program-finder" rel="nofollow" target="_blank">Program Finder</a>, <a href="https://tippie.uiowa.edu/news" rel="nofollow" target="_blank">News</a>, <a href="https://tippie.uiowa.edu/program-finder" rel="nofollow" target="_blank">Program Finder</a>) </li>
+				<li>Created custom module <em>Tippie Alerts</em> for displaying urgent/important information on top of every page in case of emergency.</li>
+			</ul>
+
+			<h4>Integrations</h4>
+			<ul>
+				<li>Digital Measures (faculty, staff, and graduate students profiles for the <a href="https://tippie.uiowa.edu/people" rel="nofollow" target="_blank">People Directory</a>)</li>
+				<li>Act-On (custom <em>Request Info</em> forms that post data to ActOn and Salesforce)</li>
+				<li>Social networks (Twitter, Facebook, Instagram)</li>
+				<li>* Localist (<a href="https://tippie.uiowa.edu/events" rel="nofollow" target="_blank">Events</a>)</li>
+				<li>XML and RSS feeds (ex: <a href="https://tippie.uiowa.edu/future-graduate-students/mba-programs/professional-mba" rel="nofollow" target="_blank">list of recruiting events</a> in the <em>Up and coming</em> block; <a href="https://tippie.uiowa.edu/jobs" rel="nofollow" target="_blank">Jobs</a> page)</li>
+				<li>Google Structured Data</li>
+			</ul>
+
+			<h4>In progress</h4>
+			<ul>
+				<li>Blogs and serialized content solution (using Blogs module)</li>
+				<li>Moving the Recruiting Events Calendar and advising scheduling systems to Drupal (currently implemented in Coldfusion)</li>
+				<li>Integration with the University's general catalog to dynamically display courses information on Tippie website</li>
+				<li>Add accordion paragraph bundle</li>
+			</ul>
+
+
+		</div>
+
+		<div class="container g--10 m--1 no-margin-vertical">
+			<div class="g--9 g-s--12">
+				<h2 class="fade-in-from-top color--maroon">John Pappajohn Entrepreneurial Center Website</h2>
+			</div>
+			<div class="g--3 g-s--12">
+				<p class="right"><a href="https://www.iowajpec.org/" rel="nofollow" target="_blank">iowajpec.org</a></p>
+			</div>
+		</div>
+
+		<div class="g--10 m--1 no-margin-vertical">
+			<img src="img/jpec-homepage.png" class="fade-in-from-top" alt="JPEC homepage">
+
+			<h3>Description & background</h3>
+			<p>John Pappajohn Entrepreneurial Center (JPEC) is the entrepreneurial hub of the University of Iowa that provides a variety of services and programs for students, businesses, and the general public to support, educate, and facilitate collaborations.</p>
+			<p>I was the project manager and the only developer for this website. I worked with the JPEC's communication team to plan content, design custom pages, and translate marketing requirements into easy-to-use Drupal 7 solution. The development took 6 months; the website was launched in August 2017.</p>
+
+			<h4>Highlights & features</h4>
+			<ul>
+				<li>JPEC theme is based on the custom Radix theme with Tippie branding</li>
+				<li>Homepage elements are fully customizable</li>
+				<li>Upcoming Events block on the homepage is implemented using Slick Carousel module</li>
+				<li>10 paragraph bundles were created</li>
+				<li>Three different options for the header</li>
+				<li>Events Calendar based on the Calendar module</li>
+				<li>Extensive use of WebForms module to accommodate events registrations</li>
+			</ul>
+
+		</div>
+
+		<div class="container g--10 m--1 no-margin-vertical">
+			<div class="g--9 g-s--12">
+				<h2 class="fade-in-from-top color--maroon">Jacobson Institute Website</h2>
+			</div>
+			<div class="g--3 g-s--12">
+
+				<input type="checkbox" id="modal-ji">
+  			<label for="modal-ji" class="link">In progress - staging content</label>
+  			<div class="modal-content g--4">
+		    	<img src="img/jacobson-homepage.png" alt="Jacobson Institute homepage">
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div class="g--10 m--1 no-margin-vertical">
+
+			<h3>Description & background</h3>
+			<p>The Jacobson Institute for Youth Entrepreneurship at The University of Iowa is a comprehensive program that enriches K-12 students’ lives through classroom and practical educational experiences.</p>
+			<p>I am the project manager and the only developer of this website. I'm working with the marketing specialist to develop a custom Drupal 7 solution for the institute.</p>
+
+			<h4>Highlights & features</h4>
+			<ul>
+				<li>The theme is based on the custom Radix theme with Tippie branding</li>
+				<li>Homepage elements are fully customizable</li>
+				<li>Event Calendar, Paragraphs, custom landing pages were implemented</li>
+				<li>Integration with payment service is planned for the webforms</li>
+			</ul>
+		</div>
+
+
+		<div class="g--10 m--1">
+			<h2>Other projects</h2>
+		</div>
+
+
+		<div class="g--10 m--1 container container--wrap--s">
+			<div class="g--4 g-s--12 fade-in-from-top card anim-delay--5">
+				<h5>Professional MBA Recuiting and Advising Calendar App</h5>
+
+				<p><span class="badge">Coldfusion</span></p>
+				<p>Designed and coded the solution. Enables program admins to schedule informational sessions with current and prospective students. Students can register, view, and cancel their appointments.</p>
+				<a href="#" data-featherlight="img/pmba-admin.png"><img src="img/pmba-admin.png" alt="PMBA Recruiting Admin"></a>
+			</div>
+			<div class="g--4 g-s--12 fade-in-from-top anim-delay--10 card nudge--left nudge--right no-nudge--s">
+				<h5>Full-time MBA Current Students Calendar App</h5>
+				<p><span class="badge">Coldfusion</span></p>
+				<p>Designed and coded the solution. Students can add their events that can be approved/rejected by a program's staff admin. Admin interface allows the program's admins to add/edit/cancel events. Students can RSVP for events, and view or cancel their registration, as well as see the list of attendees.</p>
+				<a href="#" data-featherlight="img/ftmba-admin.png"><img src="img/ftmba-admin.png" alt="FTMBA Calendar Admin"></a>
+			</div>
+			<div class="g--4 g-s--12 fade-in-from-top anim-delay--15 card">
+				<h5>Iowa Electronic Markets Website</h5>
+				<p><span class="badge">Coldfusion</span><span class="badge">Design</span></p>
+				<p>Designed and developed the website for the University of Iowa's IEM.</p>
+				<a href="#" data-featherlight="img/iem.png"><img src="img/iem.png" alt="IEM"></a>
+			</div>
+		</div>
+
+		<div class="g--10 m--1 container container--wrap--s">
+			<div class="g--4 g-s--12 fade-in-from-top anim-delay--20 card">
+				<h5>Digital Signage</h5>
+				<p><span class="badge">Coldfusion</span><span class="badge">Design</span></p>
+				<p>Designed and participated in the implementation the following interactive components of the Tippie Signage Wall (five touch screen monitors): graphics for Wayfinding, course schedule, people directory, promotional screens featuring Tippie programs, centers, and institutes.</p>
+				<a href="#" data-featherlight="img/ds.jpg"><img src="img/ds.jpg" alt="Digital Signage"></a>
+			</div>
+			<div class="g--4 g-s--12 fade-in-from-top card anim-delay--25 nudge--left nudge--right no-nudge--s">
+				<h5>Great Lakes Balboa Escape Website</h5>
+				<p><span class="badge">Wordpress</span><span class="badge">Design</span></p>
+				<p>Designed and implemented a custom Wordpress theme for the dance festival.</p>
+				<a href="#" data-featherlight="img/glbe.png"><img src="img/glbe.png" alt="Great Lakes Balboa Escape"></a>
+			</div>
+			<div class="g--4 g-s--12 fade-in-from-top anim-delay--30 card">
+
+				<h5>Hawkeye Swing Festival 2015 Website</h5>
+
+				<p><span class="badge">Wordpress</span><span class="badge">Design</span></p>
+				<p>Designed and implemented a custom Wordpress theme for the dance festival.</p>
+				<a href="#" data-featherlight="img/hawkeyesf.png"><img src="img/hawkeyesf.png" alt="Hawkeye Swing Festival"></a>
+			</div>
+
+		</div>
+
+
+
+	</main>
+
+		<script src="//code.jquery.com/jquery-latest.js"></script>
+		<script src="js/featherlight/featherlight.min.js"></script>
+
+</body>
+</html>

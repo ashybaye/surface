@@ -1,0 +1,84 @@
+@import './_imports/_variables';
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Source+Sans+Pro:400,700,900);
+
+div, p, h1, h2, h3, h4, h5, h6, a, input, label, header, aside, menu, body {
+	font-family: $sans-secondary;
+	color: $black-grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $sans;
+	margin-bottom: 1em*0.8;
+	line-height: 130%;
+	color: $black;
+}
+
+p {
+	margin-bottom: $space-med;
+}
+
+em {
+	font-style: italic;
+}
+h1 {
+	font-size: $font-huge;
+	text-transform: uppercase;
+	font-weight: 900;
+	span {
+		font-weight: 400;
+		font-size: $font-big;
+		display: block;
+		color: $asbestos;
+	}
+}
+
+h2 {
+	font-size: $font-huge*0.85;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $maroon;
+	margin-bottom: 1em*0.1;
+}
+
+h3 {
+	font-size: $font-huge*0.7;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 1em;
+}
+
+h4 {
+	font-size: $font-huge*0.6;
+	color: $maroon;
+}
+
+h5 {
+	font-size: $font-huge*0.52;
+}
+
+h6 {
+	font-size: $font-huge*0.45;
+}
+
+p, a {
+	font-size: $font-med;
+	line-height: 1.8rem;
+}
+
+.subtitle {
+	font-style: italic;
+	color: darken($grey, 5%);
+}
+.badge {
+	background-color: $gun-metal;
+	padding: 1px 5px;
+	border-radius: 3px;
+	color: $paper;
+	font-size: 0.8rem;
+	display: inline-block;
+	margin-right: 5px;
+}
+.project-link {
+	padding-top: 1.5rem;
+}

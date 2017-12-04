@@ -1,0 +1,15 @@
+img, audio, video {
+	width: 100%;
+	vertical-align: middle;
+}
+img {
+  &.circle {
+    //clip-path: circle(70px at center);
+    width: 150px;
+    margin: 20px;
+    border: solid $silver 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+  }
+}
