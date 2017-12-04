@@ -1,3 +1,4 @@
 Material Design, CSS only framework.
+Files for the Portfolio website based on the Surface framework.
 
-Check the documentation [here](http://mildrenben.github.io/surface).
+See the website [here](http://alina.cuttinhome.com).
